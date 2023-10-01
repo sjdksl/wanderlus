@@ -19,7 +19,7 @@ Wanderlust is a travel-themed website built using HTML, CSS, and JavaScript. It'
 ## Installation
 To run Wanderlust locally, follow these steps:
 
-1. Clone this repository:
+1. Clone this repository-:
    ```sh
    git clone https://github.com/your-username/Wanderlus.git
    
