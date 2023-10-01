@@ -1,6 +1,6 @@
-# Wanderlus
+# Wanderlust
 
-Wanderlus is a travel-themed website built using HTML, CSS, and JavaScript. It's designed to inspire wanderlust and provide travel enthusiasts with information and inspiration for their next adventure.
+Wanderlust is a travel-themed website built using HTML, CSS, and JavaScript. It's designed to inspire Wanderlust and provide travel enthusiasts with information and inspiration for their next adventure.
 
 ## Table of Contents
 - [Features](#features)
@@ -12,16 +12,16 @@ Wanderlus is a travel-themed website built using HTML, CSS, and JavaScript. It's
 ## Features
 - Beautiful and responsive design.
 - Explore travel destinations with detailed information.
-- Stunning images and videos to inspire your wanderlust.
+- Stunning images and videos to inspire your Wanderlust.
 - Interactive maps for each destination.
 - User-friendly interface with smooth navigation.
 - 
 ## Installation
-To run Wanderlus locally, follow these steps:
+To run Wanderlust locally, follow these steps:
 
-1. Clone this repository:
+1. Clone this repository-:
    ```sh
-   git clone https://github.com/your-username/wanderlus.git
+   git clone https://github.com/your-username/Wanderlus.git
    
 ## Usage
 This Website is purely used for educational purpose and taking idea of respective conttents
