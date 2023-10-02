@@ -153,7 +153,11 @@ padding-left: 3rem;
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);  
   transition:top 0.4s;
+  z-index: 1000;
  }
+ .section {
+  padding-top: calc(var(--header-height) + 20px); /* Adjust as needed */
+}
  .menuicon i,.closeicon i,.menuicon,.closeicon{
   display: block;
   padding-right: 1rem;
