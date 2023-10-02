@@ -15,7 +15,7 @@ Wanderlust is a travel-themed website built using HTML, CSS, and JavaScript. It'
 - Stunning images and videos to inspire your Wanderlust.
 - Interactive maps for each destination.
 - User-friendly interface with smooth navigation.
-- 
+  
 ## Installation
 To run Wanderlust locally, follow these steps:
 
