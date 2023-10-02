@@ -24,7 +24,7 @@ To run Wanderlust locally, follow these steps:
    git clone https://github.com/your-username/Wanderlus.git
    
 ## Usage
-This Website is purely used for educational purpose and taking idea of respective conttents
+This Website is purely used for educational purpose and taking idea of respective contents
 
 ## Contributing
 

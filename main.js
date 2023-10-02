@@ -13,7 +13,7 @@ if(close){
     })
 }
 //removing on clicking home etc
-const navlink=document.querySelectorAll("nvalink");
+const navlink=document.querySelectorAll("navlink");
 const f=()=>{
     menulista.classList.remove("showmenu");
 }
@@ -27,7 +27,7 @@ window.addEventListener("scroll",scrollhead);
 //when to show scroll up
 const scrollup=()=>{
     const scrollup=document.querySelector(".scroll_up");
-    //when scoll is at height 350px
+    //when scroll is at height 350px
     this.scrollY>=350? scrollup.classList.add('show-scroll'):scrollup.classList.remove('show-scroll');
 }
   window.addEventListener("scroll",scrollup);
@@ -46,7 +46,7 @@ const scrollup=()=>{
         }
     });
 navlinks.forEach(navlinkel=>{
-    //if href vlaue match add class
+    //if href value match add class
     if(navlinkel.href.includes(currentsection)){
         //removing previous active link class
         document.querySelector('.active_link').classList.remove('active_link');
