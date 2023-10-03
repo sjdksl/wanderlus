@@ -605,6 +605,204 @@ margin:0 auto
     margin:3rem 1rem 0rem 1rem;
   }
 }
+@media (max-width:414px){
+  html, 
+  body 
+  {width: auto!important; overflow-x: hidden!important} 
+
+  .aboutdesc{
+    font-size: 1rem;
+  }
+  .nav_logo {
+    font-size: 1rem;
+  }
+  .subtitle {
+    font: optional; 
+  }
+  .hometitle  {
+    font-size: optional;
+  }
+  .homedescription {
+    font-size: medium;
+  }
+  .homebutton {
+    font-size: 0.8rem;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem;
+  }
+  .place {
+    height: 200px;
+  }
+  .homecards {
+    padding-top: 3.5rem;
+  }
+   .abouttitle, .section_data  {
+    font-size: 1.6rem;
+   }
+
+   .aboutcontainer {
+    margin: 0rem 1rem;
+    padding: 0.50rem;
+   }
+   .aboutdesc {
+    font-size: medium;
+   }
+   .section_title {
+    margin: .5rem;
+   }
+   .popular_flex {
+    display: block;
+    padding-left: 50px;
+    padding-top: 10px;
+   }
+   .popular_images {
+    height: 200px;
+    width: 309px;
+    font-size: 1rem;
+   }
+   .popular_title {
+    padding-top: 10px;
+    font-size: 1rem;
+   }
+   .popular_locations span {
+    font-size: 0.8rem;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 10px;
+
+   }
+   .popular_locations {
+    height: 110px;
+   }
+   .explore_desc {
+    font-size: medium;
+    padding-top: 20px;
+   }
+
+   .join_desc {
+    font-size: medium;
+    
+   }
+   .join_input {
+    font-size: medium;
+   }
+   .join_button {
+    font-size: small;
+   }
+
+   .explore_user {
+    padding-left: 320px;
+    position: absolute;
+   }
+  .footer_desc,.footer__links{
+    font-size: medium;
+  }
+  .footer_help{
+    margin:3rem 1rem 0rem 1rem;
+  }
+}
+@media (max-width:390px){
+  html, 
+  body 
+  {width: auto!important; overflow-x: hidden!important} 
+
+  .aboutdesc{
+    font-size: 1rem;
+  }
+  .nav_logo {
+    font-size: 1rem;
+  }
+  .subtitle {
+    font: optional; 
+  }
+  .hometitle  {
+    font-size: optional;
+  }
+  .homedescription {
+    font-size: medium;
+  }
+  .homebutton {
+    font-size: 0.8rem;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem;
+  }
+  .place {
+    height: 200px;
+  }
+  .homecards {
+    padding-top: 3.5rem;
+  }
+   .abouttitle, .section_data  {
+    font-size: 1.6rem;
+   }
+
+   .aboutcontainer {
+    margin: 0rem 1rem;
+    padding: 0.50rem;
+   }
+   .aboutdesc {
+    font-size: medium;
+   }
+   .section_title {
+    margin: .5rem;
+   }
+   .popular_flex {
+    display: block;
+    padding-left: 50px;
+    padding-top: 10px;
+   }
+   .popular_images {
+    height: 200px;
+    width: 309px;
+    font-size: 1rem;
+   }
+   .popular_title {
+    padding-top: 10px;
+    font-size: 1rem;
+   }
+   .popular_locations span {
+    font-size: 0.8rem;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 10px;
+
+   }
+   .popular_locations {
+    height: 110px;
+   }
+   .explore_desc {
+    font-size: medium;
+    padding-top: 20px;
+   }
+
+   .join_desc {
+    font-size: medium;
+    
+   }
+   .join_input {
+    font-size: medium;
+   }
+   .join_button {
+    font-size: small;
+   }
+
+   .explore_user {
+    padding-left: 300px;
+    position: absolute;
+   }
+  .footer_desc,.footer__links{
+    font-size: medium;
+    display: block;   
+  }
+  .footer_content {
+    display:block;
+  }
+  .footer_help{
+    margin:3rem 1rem 0rem 1rem;
+  }
+}
 
 
 
