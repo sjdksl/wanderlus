@@ -556,7 +556,7 @@ margin:0 auto
    }
    .popular_flex {
     display: block;
-    padding-left: 30px;
+    padding-left: 6px;
     padding-top: 10px;
    }
    .popular_images {
@@ -592,6 +592,11 @@ margin:0 auto
    }
    .join_button {
     font-size: small;
+   }
+
+   .explore_user {
+    padding-left: 237px;
+    position: absolute;
    }
   .footer_desc,.footer__links{
     font-size: medium;
