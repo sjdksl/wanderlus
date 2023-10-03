@@ -242,6 +242,7 @@ gap:1rem;
   text-align: center;
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
+  white-space: nowrap;
 }
 .scroll_header::after{
   content:'';
@@ -507,59 +508,102 @@ width:2.7rem;
 margin:0 auto
 }
 /* setting for other devices */
-@media (max-width:720px){
+@media (max-width:320px){
+  html, 
+  body 
+  {width: auto!important; overflow-x: hidden!important} 
+
   .aboutdesc{
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
-  .explore_desc{
-    font-size: 0.6rem;
+  .nav_logo {
+    font-size: 1rem;
   }
+  .subtitle {
+    font: optional; 
+  }
+  .hometitle  {
+    font-size: optional;
+  }
+  .homedescription {
+    font-size: medium;
+  }
+  .homebutton {
+    font-size: 0.8rem;
+  }
+  .ri-arrow-right-line {
+    font-size: 1rem;
+  }
+  .place {
+    height: 200px;
+  }
+  .homecards {
+    padding-top: 3.5rem;
+  }
+   .abouttitle, .section_data  {
+    font-size: 1.6rem;
+   }
+
+   .aboutcontainer {
+    margin: 0rem 1rem;
+    padding: 0.50rem;
+   }
+   .aboutdesc {
+    font-size: medium;
+   }
+   .section_title {
+    margin: .5rem;
+   }
+   .popular_flex {
+    display: block;
+    padding-left: 30px;
+    padding-top: 10px;
+   }
+   .popular_images {
+    height: 200px;
+    width: 309px;
+    font-size: 1rem;
+   }
+   .popular_title {
+    padding-top: 10px;
+    font-size: 1rem;
+   }
+   .popular_locations span {
+    font-size: 0.8rem;
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 10px;
+
+   }
+   .popular_locations {
+    height: 110px;
+   }
+   .explore_desc {
+    font-size: medium;
+    padding-top: 20px;
+   }
+
+   .join_desc {
+    font-size: medium;
+    
+   }
+   .join_input {
+    font-size: medium;
+   }
+   .join_button {
+    font-size: small;
+   }
   .footer_desc,.footer__links{
-    font-size: 0.5rem;
+    font-size: medium;
   }
   .footer_help{
     margin:3rem 1rem 0rem 1rem;
   }
 }
-@media(max-width:650px){
-  *{
-    font-size: 0.9rem;
-  }
-  .join_desc{
-    font-size: 0.6rem;
-  }
-}
-@media(max-width:515px){
-  *{
-    font-size: 0.7rem;
-  }
-  .explore_content{
-    padding-top: 21rem;
-  }
-  .explore_data{
-    padding-right: 1.5rem;
-  }
-}
-@media(max-width:442px){
- .footer_title,.footer_logo{
-  font-size: 0.7rem !important;
- }
- .join_input{
-  height:1rem;
- }
- .join_button{
-  height:1.2rem;
- }
- .homecardtitle,.subtitle,.homesubtitle{
-  font-size: 1rem;
- }
-.about_image{
-  align-self: center;
-}
-.join_button{
-  font-size: 0.7rem;
-}
-}
+
+
+
+
 
 
 
